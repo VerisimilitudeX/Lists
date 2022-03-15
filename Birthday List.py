@@ -6,4 +6,4 @@ print(presents)
 index = random.randint(0, len(presents) - 1)
 random_item = presents[index]
 
-print(random_item)
+print("For my birthday, I would like a new " + str(random_item) + ".")
