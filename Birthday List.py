@@ -1,9 +1,8 @@
+# Setup
 import random
+gifts = ["a puppy", "a bike", "a new game", "a computer", "a phone"]
+choice = random.randint(0, len(gifts) - 1)
 
-presents = ["computer", "airplane", "yacht", "phone"]
-print(presents)
-
-index = random.randint(0, len(presents) - 1)
-random_item = presents[index]
-
-print("For my birthday, I would like a new " + str(random_item) + ".")
+# Output
+print(gifts)
+print("For my birthday I would like " + gifts[choice])
